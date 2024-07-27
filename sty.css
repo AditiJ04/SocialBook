@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    background-color:darkcyan;
+    color: #fff;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  nav {
+    background-color: #ddd;
+    padding: 10px;
+  }
+  
+  section {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+  }
+  
+  #sidebar {
+    width: 25%;
+    background-color: #ddd;
+    padding: 20px;
+  }
+  #sidebar a:hover
+  {
+      font-size: 25px;
+      text-decoration: none;
+  }
+  
+  #main-content {
+    width: 70%;
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  footer {
+    background-color:darkcyan;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  img {
+    width:315px;
+    height:200px;
+}
+  li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  a:hover {
+    color: #555;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color:black;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+#tablea
+{
+  width:100%;
+  height:70px;
+}
+#tableb
+{
+  width:100%;
+  height:300px;
+}
+#diva1
+{
+  height:345px;
+  width:100%;
+  background-color: crimson;
+}
+#div1
+{
+  height:40px;
+  width:50px;
+  background-color: salmon;
+}
+#div2
+{
+  height:270px;
+  width:50px;
+  background-color: springgreen;
+}
